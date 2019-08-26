@@ -1,8 +1,6 @@
 import os
 import yaml
 
-__version__ = '0.0.0'
-
 
 def scan_spec_file(spec_file):
     '''

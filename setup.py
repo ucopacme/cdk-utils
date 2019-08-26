@@ -1,6 +1,5 @@
 """cdk-utils setup"""
 
-from cdk_utils import __version__
 from setuptools import setup, find_packages
 from codecs import open
 from os import path
@@ -11,7 +10,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='cdk-utils',
-    version=__version__,
+    version='0.0.0',
     description='Helper functions for use with python AWS-CDK',
     long_description=long_description,
     url='https://github.com/ucopacme/cdk-utils',
@@ -30,6 +29,6 @@ setup(
     packages=find_packages(),
     zip_safe=False,
     install_requires=[
-        'PyYAML', 
+        'pyyaml', 
     ],
 )
